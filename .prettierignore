@@ -1,0 +1,11 @@
+dist
+coverage
+angular.json
+package.json
+package-lock.json
+yarn.lock
+tslint.json
+tsconfig.app.json
+tsconfig.json
+tsconfig.spec.json
+tslint.json

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "strict-angular-folder-structure": {
+    "strict-scalable-angular-folder-structure": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/strict-angular-folder-structure",
+            "outputPath": "dist/strict-scalable-angular-folder-structure",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "strict-angular-folder-structure:build"
+            "browserTarget": "strict-scalable-angular-folder-structure:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "strict-angular-folder-structure:build:production"
+              "browserTarget": "strict-scalable-angular-folder-structure:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "strict-angular-folder-structure:build"
+            "browserTarget": "strict-scalable-angular-folder-structure:build"
           }
         },
         "test": {
@@ -116,16 +116,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "strict-angular-folder-structure:serve"
+            "devServerTarget": "strict-scalable-angular-folder-structure:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "strict-angular-folder-structure:serve:production"
+              "devServerTarget": "strict-scalable-angular-folder-structure:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "strict-angular-folder-structure"
+  "defaultProject": "strict-scalable-angular-folder-structure"
 }

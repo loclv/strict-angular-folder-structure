@@ -1,0 +1,23 @@
+{
+  "ignorePatterns": [
+    "coverage/**/*",
+    "e2e/**/*",
+    "media/**/*"
+  ],
+  "rules": {
+    "indentation": 2,
+    "color-no-invalid-hex": true,
+    "declaration-block-no-duplicate-properties": true,
+    "no-duplicate-at-import-rules": true,
+    "font-family-no-duplicate-names": true,
+    "comment-no-empty": true,
+    "string-quotes": "single",
+    "value-keyword-case": "lower",
+    "max-empty-lines": 1,
+    "max-line-length": 120,
+    "no-eol-whitespace": true,
+    "property-no-unknown": true,
+    "block-no-empty": true,
+    "selector-pseudo-class-no-unknown": true
+  }
+}
