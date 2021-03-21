@@ -1,4 +1,9 @@
-# StrictScalableAngularFolderStructure
+# Strict Scalable Angular Folder Structure
+
+- created by strict mode
+- using lazy-load module // TODO
+- using OpenAPI 3.0 - swagger // TODO
+- using JSON Web Token (JWT)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 
