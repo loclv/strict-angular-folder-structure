@@ -5,7 +5,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "b": "ng build --prod --delete-output-path",
     "test": "ng test",
+    "gen-cover": "ng t --no-watch --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "api": "prism mock ./swagger.yaml"
