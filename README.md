@@ -61,9 +61,7 @@ prism mock ./swagger.yaml
 
 ## Project structure 🧱
 
-Based on [Angular Folder Structure](https://angular-folder-structure.readthedocs.io/en/latest/).
-
-Github repository in [here](https://github.com/mathisGarberg/angular-folder-structure).
+Based on [Angular Folder Structure](https://angular-folder-structure.readthedocs.io/en/latest/) (it's repository in [here](https://github.com/mathisGarberg/angular-folder-structure)) and [Jasonwatmore 's jwt-authentication-example](https://jasonwatmore.com/post/2020/07/09/angular-10-jwt-authentication-example-tutorial).
 
 ---
 
